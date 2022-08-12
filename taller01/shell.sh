@@ -7,5 +7,5 @@ function help(){
 if ! [ $# -eq 3 ]; then
     echo "Son 3"
     help
-    echo $help
+    exit 1
 fi
