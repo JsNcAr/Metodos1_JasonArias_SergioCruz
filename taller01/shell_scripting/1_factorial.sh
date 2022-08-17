@@ -5,7 +5,7 @@ if [ $# -eq 1 ]; then
     for ((i = 1; i <= $1; i++)); do
         fact=$(($fact * $i))
     done
-    echo "Factorial of $1 is $fact"
+    echo $fact
 else
     echo "debe ingresar solo un parametro"
 fi
