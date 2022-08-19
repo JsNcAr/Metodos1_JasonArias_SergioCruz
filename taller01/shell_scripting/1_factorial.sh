@@ -9,5 +9,3 @@ if [ $# -eq 1 ]; then
 else
     echo "debe ingresar solo un parametro"
 fi
-
-#Big O complexity = O(n**2)
